@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudahkah Anda Mengenal Allah dengan Benar? - Kelas Tauhid Aswaja</title>
+    <meta name="description" content="50 i'tiqad yang wajib diketahui setiap muslim. Bangun pondasi iman Anda dengan kelas Tauhid Aswaja.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .bg-dark-green { background-color: #1A4031; }
+        .text-dark-green { color: #1A4031; }
+        .border-dark-green { border-color: #1A4031; }
+        .bg-cream { background-color: #F9F6F0; }
+        .bg-light-green { background-color: #E8F5E9; }
+        .text-gold { color: #D4AF37; }
+        .border-gold { border-color: #D4AF37; }
+        .bg-gold { background-color: #D4AF37; }
+        
+        input[type=number]::-webkit-inner-spin-button, 
+        input[type=number]::-webkit-outer-spin-button { 
+            -webkit-appearance: none; margin: 0; 
+        }
+        details > summary { list-style: none; }
+        details > summary::-webkit-details-marker { display: none; }
+        details[open] .arrow { transform: rotate(180deg); }
+        .btn-nominal.active { background-color: #E8F5E9; border-color: #1A4031; color: #1A4031; font-weight: bold; }
+
+        @keyframes floatBook {
+            0%, 100% { transform: translateY(0px) rotate(-1deg); }
+            50% { transform: translateY(-12px) rotate(-1deg); }
+        }
+        .animate-book { animation: floatBook 5s ease-in-out infinite; }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .wa-float {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 9999;
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background: #25D366;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 0 0 0 rgba(37, 211, 102, 0.7);
+            cursor: pointer;
+            transition: transform 0.2s ease;
+            animation: waPulse 2s infinite;
+        }
+        .wa-float:hover { transform: scale(1.1); }
+        .wa-float svg { width: 38px; height: 38px; fill: white; }
+
+        @keyframes waPulse {
+            0% { box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 0 0 0 rgba(37, 211, 102, 0.7); }
+            70% { box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 0 0 16px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+
+        .wa-float::before {
+            content: 'Gabung Grup WA';
+            position: absolute;
+            right: 74px;
+            background: #1A4031;
+            color: #D4AF37;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 6px 12px;
+            border-radius: 6px;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        .wa-float:hover::before { opacity: 1; }
+
+        /* Highlight untuk kata penting */
+        .highlight {
+            background: linear-gradient(180deg, transparent 60%, rgba(212,175,55,0.4) 60%);
+            padding: 0 2px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="bg-cream font-sans text-gray-800 antialiased">
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://chat.whatsapp.com/K92YpV3Kfnt1fuYjJc4sBY" 
+       target="_blank" rel="noopener" id="waFloat" class="wa-float" title="Gabung Grup WhatsApp">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+    </a>
+
+    <!-- ==================== LANDING PAGE ==================== -->
+    <div id="landing-page">
+        
+        <!-- HERO SECTION -->
+        <header class="bg-dark-green text-white pt-10 pb-16 px-4 text-center rounded-b-3xl shadow-lg">
+            <div class="max-w-md mx-auto">
+                <span class="border border-gold text-gold px-4 py-1 rounded-full text-xs font-semibold tracking-wide inline-block mb-6">
+                    ✦ KELAS TAUHID ASWAJA ✦
+                </span>
+                <h1 class="text-3xl font-bold leading-tight mb-3">Sudahkah Anda Mengenal Allah dengan Benar?</h1>
+                <p class="text-sm text-gray-200 mb-8 opacity-90">50 i'tiqad yang wajib diketahui setiap muslim — <strong class="text-gold">sudahkah Anda menghafalnya?</strong></p>
+                
+                <div class="space-y-3">
+                    <button onclick="showDaftar()" class="w-full bg-white text-dark-green font-bold py-3 rounded-lg shadow-md hover:bg-gray-100 transition">
+                        🚀 Mulai Belajar Sekarang
+                    </button>
+                    <a href="#kurikulum" class="block w-full border border-white text-white font-bold py-3 rounded-lg hover:bg-white hover:text-dark-green transition text-center">
+                        📖 Lihat 50 I'tiqad
+                    </a>
+                </div>
+
+                <!-- COVER KITAB -->
+                <div class="mt-12 relative flex justify-center">
+                    <div class="w-64 animate-book drop-shadow-2xl">
+                        <svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg" class="w-full h-auto rounded-xl overflow-hidden" style="box-shadow: 0 20px 50px rgba(0,0,0,0.5), 0 0 0 3px #D4AF37, 0 0 0 6px #0F2F3D, 0 0 0 8px #D4AF37;">
+                            <defs>
+                                <linearGradient id="bgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#0F2F3D"/>
+                                    <stop offset="50%" stop-color="#0A1F29"/>
+                                    <stop offset="100%" stop-color="#05141B"/>
+                                </linearGradient>
+                                <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#FFF3C4"/>
+                                    <stop offset="25%" stop-color="#F5D77A"/>
+                                    <stop offset="50%" stop-color="#D4AF37"/>
+                                    <stop offset="75%" stop-color="#B8901E"/>
+                                    <stop offset="100%" stop-color="#8B6B14"/>
+                                </linearGradient>
+                                <linearGradient id="goldLight" x1="0%" y1="0%" x2="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#FFFAE0"/>
+                                    <stop offset="50%" stop-color="#F5D77A"/>
+                                    <stop offset="100%" stop-color="#D4AF37"/>
+                                </linearGradient>
+                                <radialGradient id="shine" cx="50%" cy="30%" r="60%">
+                                    <stop offset="0%" stop-color="#F5D77A" stop-opacity="0.15"/>
+                                    <stop offset="100%" stop-color="#F5D77A" stop-opacity="0"/>
+                                </radialGradient>
+                            </defs>
+                            <rect width="400" height="600" fill="url(#bgDark)"/>
+                            <rect width="400" height="600" fill="url(#shine)"/>
+                            <rect x="14" y="14" width="372" height="572" fill="none" stroke="url(#gold)" stroke-width="1.5" rx="6"/>
+                            <rect x="22" y="22" width="356" height="556" fill="none" stroke="url(#gold)" stroke-width="0.5" rx="4" opacity="0.7"/>
+                            <g stroke="url(#gold)" fill="none" stroke-width="1" opacity="0.95">
+                                <path d="M 30 30 Q 80 30 100 60 Q 80 90 40 80 Q 30 70 45 55 Q 70 55 80 70"/>
+                                <path d="M 50 45 Q 65 50 70 65"/>
+                                <path d="M 90 50 Q 100 55 95 65 Q 85 60 90 50 Z" fill="url(#gold)"/>
+                                <circle cx="110" cy="45" r="2.5" fill="url(#gold)"/>
+                                <circle cx="120" cy="60" r="1.5" fill="url(#gold)"/>
+                                <path d="M 30 100 Q 60 100 80 110"/>
+                            </g>
+                            <g stroke="url(#gold)" fill="none" stroke-width="1" opacity="0.95">
+                                <path d="M 370 30 Q 320 30 300 60 Q 320 90 360 80 Q 370 70 355 55 Q 330 55 320 70"/>
+                                <path d="M 310 50 Q 300 55 305 65 Q 315 60 310 50 Z" fill="url(#gold)"/>
+                                <circle cx="290" cy="45" r="2.5" fill="url(#gold)"/>
+                                <path d="M 370 100 Q 340 100 320 110"/>
+                            </g>
+                            <g stroke="url(#gold)" fill="none" stroke-width="1" opacity="0.85">
+                                <path d="M 30 570 Q 80 570 100 540 Q 80 510 40 520 Q 30 530 45 545 Q 70 545 80 530"/>
+                                <path d="M 90 550 Q 100 545 95 535 Q 85 540 90 550 Z" fill="url(#gold)"/>
+                                <circle cx="110" cy="555" r="2.5" fill="url(#gold)"/>
+                            </g>
+                            <g stroke="url(#gold)" fill="none" stroke-width="1" opacity="0.85">
+                                <path d="M 370 570 Q 320 570 300 540 Q 320 510 360 520 Q 370 530 355 545 Q 330 545 320 530"/>
+                                <path d="M 310 550 Q 300 545 305 535 Q 315 540 310 550 Z" fill="url(#gold)"/>
+                                <circle cx="290" cy="555" r="2.5" fill="url(#gold)"/>
+                            </g>
+                            <circle cx="200" cy="160" r="58" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+                            <circle cx="200" cy="160" r="53" fill="none" stroke="url(#gold)" stroke-width="0.5" opacity="0.6"/>
+                            <text x="200" y="178" font-family="serif" font-size="52" fill="url(#goldLight)" text-anchor="middle" font-weight="bold">ﷲ</text>
+                            <line x1="80" y1="255" x2="320" y2="255" stroke="url(#gold)" stroke-width="0.5" opacity="0.6"/>
+                            <circle cx="200" cy="255" r="3" fill="url(#gold)"/>
+                            <text x="200" y="305" font-family="Georgia, serif" font-size="62" font-weight="bold" fill="url(#goldLight)" text-anchor="middle" letter-spacing="6">TAUHID</text>
+                            <line x1="130" y1="320" x2="270" y2="320" stroke="url(#gold)" stroke-width="0.5"/>
+                            <text x="200" y="375" font-family="Georgia, serif" font-size="66" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">ASWAJA</text>
+                            <line x1="100" y1="395" x2="300" y2="395" stroke="url(#gold)" stroke-width="0.8"/>
+                            <circle cx="200" cy="395" r="3" fill="url(#gold)"/>
+                            <text x="200" y="425" font-family="Georgia, serif" font-size="17" font-weight="bold" fill="url(#goldLight)" text-anchor="middle">50 Itikad yang Wajib Diketahui</text>
+                            <text x="200" y="443" font-family="Georgia, serif" font-size="9" fill="url(#gold)" text-anchor="middle" letter-spacing="4" opacity="0.8">— TAUHID ASWAJA —</text>
+                            <text x="80" y="470" font-size="16" fill="url(#gold)">☪</text>
+                            <g fill="url(#gold)" opacity="0.9">
+                                <rect x="62" y="475" width="18" height="85"/>
+                                <path d="M 62 475 Q 71 455 80 475 Z"/>
+                                <circle cx="71" cy="453" r="3"/>
+                                <line x1="71" y1="450" x2="71" y2="442" stroke="url(#gold)" stroke-width="1"/>
+                                <rect x="320" y="475" width="18" height="85"/>
+                                <path d="M 320 475 Q 329 455 338 475 Z"/>
+                                <circle cx="329" cy="453" r="3"/>
+                                <line x1="329" y1="450" x2="329" y2="442" stroke="url(#gold)" stroke-width="1"/>
+                                <rect x="130" y="500" width="140" height="60"/>
+                                <path d="M 145 500 Q 145 445 200 435 Q 255 445 255 500 Z"/>
+                                <circle cx="200" cy="428" r="2.5"/>
+                                <line x1="200" y1="426" x2="200" y2="418" stroke="url(#gold)" stroke-width="1"/>
+                                <path d="M 110 500 Q 110 478 128 475 Q 146 478 146 500 Z"/>
+                                <rect x="105" y="500" width="46" height="45"/>
+                                <path d="M 254 500 Q 254 478 272 475 Q 290 478 290 500 Z"/>
+                                <rect x="249" y="500" width="46" height="45"/>
+                                <path d="M 185 560 L 185 525 Q 200 510 215 525 L 215 560 Z" fill="#0A1F29"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- INTRO SECTION dengan HOOK EMOSIONAL -->
+        <section class="py-12 px-6 text-center max-w-lg mx-auto reveal">
+            <span class="text-gold text-xs font-bold tracking-widest uppercase">Mengapa Pembelajaran Ini?</span>
+            <h2 class="text-2xl font-bold text-dark-green mt-2 mb-4">Banyak yang sholat, tapi belum kenal siapa yang disembah.</h2>
+            <p class="text-sm text-gray-600 leading-relaxed">
+                Kalau ditanya <span class="highlight">"Siapa Allah?"</span>, apakah Anda bisa menjawab dengan yakin? Padahal, inilah <strong class="text-dark-green">fondasi utama</strong> yang akan ditanya pertama kali di alam kubur.
+                <br><br>
+                Setiap hari kita diserang pemikiran yang mengaburkan akidah. Tanpa pondasi tauhid yang kokoh, <span class="highlight">iman bisa goyah</span>. Yuk, kokohkan akidah Anda dengan 50 i'tiqad yang wajib diketahui setiap muslim yang sudah baligh dan berakal sehat.
+            </p>
+        </section>
+
+        <!-- ABOUT SECTION / 50 I'TIQAD -->
+        <section id="kurikulum" class="py-12 px-4 bg-white">
+            <div class="max-w-lg mx-auto">
+                <div class="text-center mb-8 reveal">
+                    <span class="text-gold text-xs font-bold tracking-widest uppercase">Daftar Isi Pembelajaran</span>
+                    <h2 class="text-2xl font-bold text-dark-green mt-2 mb-3">Berani Uji Diri? Berapa dari 50 I'tiqad Ini yang Benar-Benar Anda Pahami?</h2>
+                    <p class="text-sm text-gray-600">Inilah 50 i'tiqad yang membedakan muslim yang <strong class="text-dark-green">berilmu</strong> dengan yang hanya <em>ikut-ikutan</em>.</p>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 bg-cream rounded-xl p-5 border-l-4 border-dark-green shadow-sm reveal">
+                        <div class="bg-dark-green text-white font-bold text-2xl w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0">20</div>
+                        <div>
+                            <h3 class="font-bold text-dark-green text-base">Sifat Wajib bagi Allah</h3>
+                            <p class="text-xs text-gray-500 mt-1">20 sifat kesempurnaan yang wajib diyakini ada pada Allah SWT.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 bg-cream rounded-xl p-5 border-l-4 border-red-800 shadow-sm reveal">
+                        <div class="bg-red-800 text-white font-bold text-2xl w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0">20</div>
+                        <div>
+                            <h3 class="font-bold text-dark-green text-base">Sifat Mustahil bagi Allah</h3>
+                            <p class="text-xs text-gray-500 mt-1">20 sifat yang mustahil ada pada Allah SWT.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 bg-cream rounded-xl p-5 border-l-4 border-gold shadow-sm reveal">
+                        <div class="bg-gold text-dark-green font-bold text-2xl w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0">1</div>
+                        <div>
+                            <h3 class="font-bold text-dark-green text-base">Sifat Jaiz bagi Allah</h3>
+                            <p class="text-xs text-gray-500 mt-1">1 sifat yang boleh (jaiz) bagi Allah SWT.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 bg-cream rounded-xl p-5 border-l-4 border-dark-green shadow-sm reveal">
+                        <div class="bg-dark-green text-white font-bold text-2xl w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0">4</div>
+                        <div>
+                            <h3 class="font-bold text-dark-green text-base">Sifat Wajib bagi Rasul</h3>
+                            <p class="text-xs text-gray-500 mt-1">4 sifat yang wajib ada pada para Rasul.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 bg-cream rounded-xl p-5 border-l-4 border-red-800 shadow-sm reveal">
+                        <div class="bg-red-800 text-white font-bold text-2xl w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0">4</div>
+                        <div>
+                            <h3 class="font-bold text-dark-green text-base">Sifat Mustahil bagi Rasul</h3>
+                            <p class="text-xs text-gray-500 mt-1">4 sifat yang mustahil ada pada para Rasul.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 bg-cream rounded-xl p-5 border-l-4 border-gold shadow-sm reveal">
+                        <div class="bg-gold text-dark-green font-bold text-2xl w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0">1</div>
+                        <div>
+                            <h3 class="font-bold text-dark-green text-base">Sifat Jaiz bagi Rasul</h3>
+                            <p class="text-xs text-gray-500 mt-1">1 sifat yang boleh (jaiz) bagi para Rasul.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-dark-green rounded-xl p-5 text-center text-white mt-6 reveal">
+                    <p class="text-xs opacity-80 uppercase tracking-widest">Total</p>
+                    <p class="text-3xl font-bold text-gold mt-1">50 I'tiqad</p>
+                    <p class="text-xs text-gray-300 mt-2">Wajib diketahui setiap muslim yang sudah baligh dan berakal sehat.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FACILITIES -->
+        <section class="py-12 px-4 bg-white">
+            <div class="max-w-lg mx-auto text-center">
+                <div class="reveal">
+                    <span class="text-gold text-xs font-bold tracking-widest uppercase">Fasilitas</span>
+                    <h2 class="text-2xl font-bold text-dark-green mt-2 mb-6">Apa Saja yang Akan Anda Dapatkan?</h2>
+                </div>
+                <div class="bg-cream rounded-xl p-6 text-left space-y-4 shadow-inner reveal">
+                    <div class="flex items-start gap-3"><span class="text-green-600 mt-1">✔</span><span class="text-sm font-medium">Akses Materi Selamanya (Lifetime)</span></div>
+                    <div class="flex items-start gap-3"><span class="text-green-600 mt-1">✔</span><span class="text-sm font-medium">Kurikulum Belajar Terstruktur</span></div>
+                    <div class="flex items-start gap-3"><span class="text-green-600 mt-1">✔</span><span class="text-sm font-medium">Sistem Progres Belajar Bertahap</span></div>
+                    <div class="flex items-start gap-3"><span class="text-green-600 mt-1">✔</span><span class="text-sm font-medium">Evaluasi Progres Belajar</span></div>
+                    <div class="flex items-start gap-3"><span class="text-green-600 mt-1">✔</span><span class="text-sm font-medium">Ujian Akhir Komprehensif</span></div>
+                    <div class="flex items-start gap-3"><span class="text-green-600 mt-1">✔</span><span class="text-sm font-medium">Sistem Remedial hingga Lulus</span></div>
+                    <div class="flex items-start gap-3"><span class="text-green-600 mt-1">✔</span><span class="text-sm font-medium">Grup Diskusi Interaktif</span></div>
+                    <div class="flex items-start gap-3"><span class="text-green-600 mt-1">✔</span><span class="text-sm font-medium">E-Book Materi Pembelajaran</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- INSTRUCTOR -->
+        <section class="py-12 px-4">
+            <div class="max-w-lg mx-auto text-center">
+                <div class="reveal">
+                    <span class="text-gold text-xs font-bold tracking-widest uppercase">Pembimbing</span>
+                    <h2 class="text-2xl font-bold text-dark-green mt-2 mb-8">Belajar Langsung dari Ahlinya</h2>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 reveal">
+                    <div class="w-32 h-32 mx-auto mb-5 rounded-full flex items-center justify-center relative" 
+                         style="background: linear-gradient(135deg, #1A4031 0%, #0F2F3D 100%); box-shadow: 0 0 0 4px #D4AF37, 0 0 0 7px #1A4031, 0 0 25px rgba(212,175,55,0.5);">
+                        <div class="absolute inset-2 rounded-full border border-dashed opacity-60" style="border-color: #D4AF37;"></div>
+                        <span class="font-bold text-5xl tracking-wider" style="color: #D4AF37; font-family: Georgia, 'Times New Roman', serif;">TM</span>
+                        <span class="absolute top-2 text-xs" style="color: #D4AF37;">✦</span>
+                        <span class="absolute bottom-2 text-xs" style="color: #D4AF37;">✦</span>
+                    </div>
+                    <span class="text-gold text-xs font-bold">PEMBIMBING</span>
+                    <h3 class="font-bold text-xl mt-1 text-dark-green">Tengku Muhammad</h3>
+                    <p class="text-xs text-gray-500 mt-2">Pengajar Ilmu Tauhid & Akidah Aswaja</p>
+                    <div class="mt-4 flex flex-wrap gap-2 justify-center">
+                        <span class="inline-block bg-blue-50 text-blue-600 text-xs px-3 py-1 rounded-full text-center">Alumni Aziz Mahmud Huday Vakfi Turki Istanbul</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TARGET AUDIENCE -->
+        <section class="py-12 px-4 bg-white">
+            <div class="max-w-lg mx-auto text-center">
+                <div class="reveal">
+                    <span class="text-gold text-xs font-bold tracking-widest uppercase">Siapa yang bisa mengikuti</span>
+                    <h2 class="text-2xl font-bold text-dark-green mt-2 mb-8">Kelas Ini Cocok untuk Anda yang...</h2>
+                </div>
+                <div class="space-y-4 text-left">
+                    <div class="p-5 border border-gray-100 rounded-xl shadow-sm bg-cream reveal">
+                        <span class="text-gold font-bold text-lg">01</span>
+                        <h3 class="font-bold text-dark-green mt-1">Ingin Mulai dari Nol</h3>
+                        <p class="text-sm text-gray-600 mt-2">Belum pernah belajar tauhid, dan ingin mulai dari dasar yang benar.</p>
+                    </div>
+                    <div class="p-5 border border-gray-100 rounded-xl shadow-sm bg-cream reveal">
+                        <span class="text-gold font-bold text-lg">02</span>
+                        <h3 class="font-bold text-dark-green mt-1">Pelajar & Santri</h3>
+                        <p class="text-sm text-gray-600 mt-2">Ingin memperkuat pemahaman materi tauhid di sekolah/dayah.</p>
+                    </div>
+                    <div class="p-5 border border-gray-100 rounded-xl shadow-sm bg-cream reveal">
+                        <span class="text-gold font-bold text-lg">03</span>
+                        <h3 class="font-bold text-dark-green mt-1">Orang Tua & Pendidik</h3>
+                        <p class="text-sm text-gray-600 mt-2">Ingin mengajarkan akidah yang benar kepada anak dan murid.</p>
+                    </div>
+                    <div class="p-5 border border-gray-100 rounded-xl shadow-sm bg-cream reveal">
+                        <span class="text-gold font-bold text-lg">04</span>
+                        <h3 class="font-bold text-dark-green mt-1">Ingin Iman Lebih Kokoh</h3>
+                        <p class="text-sm text-gray-600 mt-2">Merasa iman goyah dan ingin pondasi akidah yang lebih kuat.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTRIBUTION CTA -->
+        <section class="py-12 px-4">
+            <div class="max-w-lg mx-auto text-center reveal">
+                <span class="text-gold text-xs font-bold tracking-widest uppercase">Cara Mengikuti Pembelajaran</span>
+                <h2 class="text-2xl font-bold text-dark-green mt-2 mb-4">Tidak Ada Tarif Tetap — Anda yang Menentukan</h2>
+                <p class="text-sm text-gray-600 mb-6 leading-relaxed">Kami percaya, <span class="highlight">ilmu agama tidak boleh dihalangi oleh biaya</span>. Tentukan nominal kontribusi sesuai kemampuan dan keikhlasan Anda.</p>
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-100 text-left mb-6 flex items-start gap-4">
+                    <span class="text-2xl">🤝</span>
+                    <div>
+                        <h3 class="font-bold text-dark-green">Kontribusi Pembelajaran</h3>
+                        <p class="text-xs text-gray-500 mt-1">Semakin besar kontribusi Anda, semakin besar pula keberkahan ilmunya.</p>
+                    </div>
+                </div>
+                <button onclick="showDaftar()" class="w-full bg-dark-green text-white font-bold py-4 rounded-lg shadow-md hover:bg-green-900 transition text-lg">
+                    💎 Bangun Pondasi Iman Anda Hari Ini
+                </button>
+            </div>
+        </section>
+
+        <!-- BANNER 50 -->
+        <section class="bg-dark-green py-10 px-4 text-center text-white reveal">
+            <div class="max-w-lg mx-auto">
+                <span class="text-gold font-bold text-5xl block mb-2">50</span>
+                <h2 class="text-xl font-bold">I'tiqad yang Wajib Diketahui</h2>
+                <p class="text-sm text-gray-300 mt-2">Setiap muslim yang sudah baligh dan berakal sehat wajib mengetahui 50 i'tiqad ini.</p>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="py-12 px-4 bg-white">
+            <div class="max-w-lg mx-auto">
+                <div class="text-center mb-8 reveal">
+                    <span class="text-gold text-xs font-bold tracking-widest uppercase">FAQ</span>
+                    <h2 class="text-2xl font-bold text-dark-green mt-2">Masih Ragu? Baca Ini Dulu 👇</h2>
+                </div>
+                <div class="space-y-3 reveal">
+                    <details class="group bg-cream rounded-lg border border-gray-200">
+                        <summary class="flex justify-between items-center p-4 cursor-pointer font-semibold text-dark-green">
+                            Apa itu 50 i'tiqad?
+                            <span class="arrow transition-transform duration-300 text-gold font-bold">+</span>
+                        </summary>
+                        <div class="p-4 pt-0 text-sm text-gray-600 border-t border-gray-200 mt-2">
+                            50 i'tiqad adalah 50 keyakinan pokok dalam ilmu tauhid yang wajib diketahui setiap muslim yang sudah baligh dan berakal sehat. Ini adalah pondasi utama dalam berakidah yang benar.
+                        </div>
+                    </details>
+                    <details class="group bg-cream rounded-lg border border-gray-200">
+                        <summary class="flex justify-between items-center p-4 cursor-pointer font-semibold text-dark-green">
+                            Apakah kelas ini berbayar?
+                            <span class="arrow transition-transform duration-300 text-gold font-bold">+</span>
+                        </summary>
+                        <div class="p-4 pt-0 text-sm text-gray-600 border-t border-gray-200 mt-2">
+                            Tidak ada tarif tetap. Anda bebas menentukan nominal kontribusi sesuai kemampuan Anda. Kami percaya ilmu agama tidak boleh dihalangi oleh biaya.
+                        </div>
+                    </details>
+                    <details class="group bg-cream rounded-lg border border-gray-200">
+                        <summary class="flex justify-between items-center p-4 cursor-pointer font-semibold text-dark-green">
+                            Siapa saja yang dapat mengikuti?
+                            <span class="arrow transition-transform duration-300 text-gold font-bold">+</span>
+                        </summary>
+                        <div class="p-4 pt-0 text-sm text-gray-600 border-t border-gray-200 mt-2">
+                            Terbuka untuk pemula, pelajar, santri, mahasiswa, orang tua, pendidik, dan masyarakat umum yang ingin memperdalam tauhid.
+                        </div>
+                    </details>
+                    <details class="group bg-cream rounded-lg border border-gray-200">
+                        <summary class="flex justify-between items-center p-4 cursor-pointer font-semibold text-dark-green">
+                            Apakah materi dapat diakses kembali?
+                            <span class="arrow transition-transform duration-300 text-gold font-bold">+</span>
+                        </summary>
+                        <div class="p-4 pt-0 text-sm text-gray-600 border-t border-gray-200 mt-2">
+                            Ya, Anda mendapatkan akses selamanya (lifetime) untuk materi yang sudah diikuti. Belajar kapan saja, di mana saja.
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="bg-dark-green text-white pt-12 pb-8 px-4 text-center">
+            <div class="max-w-lg mx-auto">
+                <span class="text-gold text-xs font-bold tracking-widest uppercase">Mulai Dari Dasar</span>
+                <h2 class="text-2xl font-bold mt-2 mb-4">Jangan Tunda — Ajal Bisa Datang Kapan Saja</h2>
+                <p class="text-sm text-gray-300 mb-8">Bangun pondasi ilmu tauhid dengan lebih terarah. Bekal terbaik untuk akhirat Anda.</p>
+                <button onclick="showDaftar()" class="bg-white text-dark-green font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-gray-100 transition">
+                    🚀 Lihat Cara Pendaftaran
+                </button>
+
+                <div class="mt-16 pt-8 border-t border-gray-700 text-xs text-gray-400 space-y-4">
+                    <p class="font-bold text-white text-base">PESANTREN DAYAH DARUL MUTA'ALLIMIN</p>
+                    <div class="text-gray-300">
+                        <p class="font-bold text-white mb-1">PEMBINA</p>
+                        <p>Tengku Muhammad</p>
+                        <p>Alumni Aziz Mahmud Huday Vakfi Turki Istanbul</p>
+                    </div>
+                    <p>Desa Lamme, Kec. Blang Bintang, Kab. Aceh Besar</p>
+                    <p>Email: admin@darulmutaallimin.com</p>
+                    <p class="mt-6 opacity-60">© 2025 Pesantren Dayah Darul Muta'allimin. Semua Hak Dilindungi</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- ==================== HALAMAN DAFTAR ==================== -->
+    <div id="daftar-page" class="hidden py-8 px-4">
+        <div class="max-w-lg mx-auto space-y-6">
+            <button onclick="showLanding()" class="text-dark-green font-semibold flex items-center gap-2 mb-2 hover:underline">
+                ← Kembali ke Halaman Depan
+            </button>
+
+            <!-- KARTU 1: KONTRIBUSI -->
+            <div class="bg-white rounded-2xl shadow-sm p-6 border border-gray-100">
+                <h2 class="text-xl font-bold text-center text-dark-green mb-4">Tentukan Kontribusi Pembelajaran</h2>
+                <div class="grid grid-cols-3 gap-3 mb-4">
+                    <button onclick="setNominal(25000, this)" class="btn-nominal border border-gray-300 text-gray-700 py-2 rounded-lg text-sm transition">Rp. 25.000</button>
+                    <button onclick="setNominal(35000, this)" class="btn-nominal border border-gray-300 text-gray-700 py-2 rounded-lg text-sm transition">Rp. 35.000</button>
+                    <button onclick="setNominal(50000, this)" class="btn-nominal border border-gray-300 text-gray-700 py-2 rounded-lg text-sm transition">Rp. 50.000 ★</button>
+                    <button onclick="setNominal(75000, this)" class="btn-nominal border border-gray-300 text-gray-700 py-2 rounded-lg text-sm transition">Rp. 75.000</button>
+                    <button onclick="setNominal(100000, this)" class="btn-nominal border border-gray-300 text-gray-700 py-2 rounded-lg text-sm transition">Rp. 100.000</button>
+                    <button onclick="setNominal(150000, this)" class="btn-nominal border border-gray-300 text-gray-700 py-2 rounded-lg text-sm transition">Rp. 150.000</button>
+                </div>
+                <p class="text-center text-sm text-gray-500 mb-6">Atau masukkan nominal lain sesuai keinginan Anda.</p>
+                <div class="mb-4">
+                    <label class="block text-sm font-semibold mb-2 text-center">Pengisian Kontribusi</label>
+                    <div class="flex border border-gray-300 rounded-lg overflow-hidden">
+                        <div class="bg-dark-green text-white px-4 py-3 font-bold flex items-center">Rp.</div>
+                        <input type="number" id="nominalInput" placeholder="0" class="w-full px-4 py-3 outline-none text-right font-bold text-xl">
+                    </div>
+                </div>
+                <div class="bg-light-green border border-green-200 rounded-lg p-4 mb-4">
+                    <h3 class="font-bold text-dark-green mb-2">Catatan Kontribusi</h3>
+                    <p class="text-sm text-gray-700 leading-relaxed">
+                        Tidak ada tarif tetap untuk mengikuti pembelajaran ini. Anda bebas menentukan nominal kontribusi sesuai keinginan Anda.
+                    </p>
+                </div>
+                <div class="flex items-center gap-2 text-green-600 font-semibold text-sm">
+                    <span>✔</span> Secure 100%
+                </div>
+            </div>
+
+            <!-- HOOK E-BOOK PREMIUM -->
+            <div class="bg-dark-green rounded-2xl p-5 text-white border-2 border-gold shadow-lg">
+                <div class="flex items-start gap-3 mb-3">
+                    <span class="text-3xl">📖</span>
+                    <div>
+                        <h3 class="font-bold text-gold text-base">E-Book Premium dari Tgk Muhammad</h3>
+                        <p class="text-xs text-gray-300 mt-1">Ditulis langsung oleh pembimbing yang menimba ilmu di Turki</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-200 mb-3 leading-relaxed">
+                    Rangkuman lengkap <strong class="text-gold">50 i'tiqad</strong> dalam bahasa yang mudah dipahami. Bukan sekadar bacaan — ini <span class="highlight text-dark-green">panduan hidup</span>.
+                </p>
+                <ul class="text-xs text-gray-300 space-y-1 mb-3">
+                    <li>✅ Untuk orang tua yang ingin ajarkan akidah ke anak</li>
+                    <li>✅ Untuk muslim yang ingin memperdalam tauhid</li>
+                    <li>✅ Untuk santri & pelajar yang butuh referensi ringkas</li>
+                </ul>
+            </div>
+
+            <!-- TOMBOL E-BOOK -->
+            <a href="https://lynk.id/tgkmuhammad" target="_blank" rel="noopener" class="block w-full bg-gold hover:bg-yellow-600 text-dark-green font-bold py-4 rounded-2xl text-center transition shadow-md border-2 border-dark-green">
+                <span class="text-2xl block mb-1">📚</span>
+                Dapatkan E-Book Sekarang
+                <span class="block text-xs font-normal mt-1 opacity-80">💰 Harga segelas kopi, ilmu sepanjang hidup</span>
+            </a>
+
+            <!-- KARTU 2: LOGIN -->
+            <div class="bg-white rounded-2xl shadow-sm p-4 text-center border border-gray-100">
+                <button onclick="showLogin()" class="w-full bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3 rounded-lg transition">
+                    Sudah mempunyai akun? Login
+                </button>
+            </div>
+
+            <!-- KARTU 3: FORMULIR -->
+            <div class="bg-white rounded-2xl shadow-sm p-6 border border-gray-100">
+                <p class="text-sm text-gray-600 mb-4">Isi data di bawah untuk menerima informasi akses dan transaksi.</p>
+                <h2 class="text-2xl font-bold mb-6">Buat Akun Baru</h2>
+                <form id="formDaftar" class="space-y-5" onsubmit="submitDaftar(event)">
+                    <div>
+                        <label class="block font-semibold mb-1">Nama Lengkap <span class="text-red-500">*</span></label>
+                        <p class="text-xs text-gray-500 mb-2">Masukkan nama lengkap untuk memudahkan pencarian data.</p>
+                        <input type="text" id="inputNama" required placeholder="Masukkan nama lengkap" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-dark-green outline-none">
+                    </div>
+                    <div>
+                        <label class="block font-semibold mb-1">Alamat Email <span class="text-red-500">*</span></label>
+                        <p class="text-xs text-gray-500 mb-2">Kami mengirimkan informasi akses dan transaksi ke email ini.</p>
+                        <input type="email" id="inputEmail" required placeholder="Masukkan email aktif" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-dark-green outline-none">
+                    </div>
+                    <div>
+                        <label class="block font-semibold mb-1">Buat Password <span class="text-red-500">*</span></label>
+                        <p class="text-xs text-gray-500 mb-2">Tuliskan password yang akan digunakan pada website ini.</p>
+                        <input type="password" id="inputPassword" required placeholder="Buat password untuk website ini" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-dark-green outline-none">
+                    </div>
+                    <div>
+                        <label class="block font-semibold mb-1">Nomor WhatsApp <span class="text-red-500">*</span></label>
+                        <p class="text-xs text-gray-500 mb-2">Masukkan nomor WhatsApp aktif untuk notifikasi transaksi.</p>
+                        <input type="tel" id="inputWA" required placeholder="Masukkan nomor WhatsApp aktif" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-dark-green outline-none">
+                    </div>
+
+                    <!-- METODE PEMBAYARAN -->
+                    <div class="pt-4 border-t border-gray-100">
+                        <h2 class="text-xl font-bold text-dark-green mb-4">Pilih Metode Pembayaran <span class="text-red-500">*</span></h2>
+                        
+                        <label class="block p-4 border-2 border-gray-300 rounded-lg cursor-pointer hover:bg-gray-50 mb-3 transition">
+                            <div class="flex items-center gap-3">
+                                <input type="radio" name="payment" value="BRI" class="w-5 h-5 accent-dark-green" checked>
+                                <div class="flex items-center gap-2 flex-1">
+                                    <span class="font-bold text-blue-800 text-lg">BRI</span>
+                                    <span class="text-xs text-gray-500">Bank Rakyat Indonesia</span>
+                                </div>
+                            </div>
+                            <div class="mt-3 pl-8 bg-white rounded-lg p-3 border border-gray-200">
+                                <p class="text-xs text-gray-500">Nomor Rekening:</p>
+                                <div class="flex items-center justify-between mt-1">
+                                    <p class="font-bold text-dark-green text-lg tracking-wider">0129 5582 503</p>
+                                    <button type="button" onclick="copyRekening()" class="bg-dark-green text-white text-xs px-3 py-1 rounded-md hover:bg-green-900 transition">
+                                        Salin
+                                    </button>
+                                </div>
+                                <p class="text-xs text-gray-500 mt-2">a.n. Tgk Muhammad</p>
+                            </div>
+                        </label>
+
+                        <label class="block p-4 border-2 border-gray-300 rounded-lg cursor-pointer hover:bg-gray-50 mb-6 transition">
+                            <div class="flex items-center gap-3">
+                                <input type="radio" name="payment" value="QRIS" class="w-5 h-5 accent-dark-green">
+                                <div class="flex items-center gap-2 flex-1">
+                                    <span class="font-bold text-purple-700 text-lg">QRIS</span>
+                                    <span class="text-xs text-gray-500">Scan & Bayar</span>
+                                </div>
+                            </div>
+                        </label>
+
+                        <button type="submit" class="w-full bg-dark-green hover:bg-green-900 text-white font-bold py-4 rounded-lg text-lg transition shadow-md">
+                            DAFTAR SEKARANG
+                        </button>
+                    </div>
+                </form>
+                <div class="flex items-center justify-center gap-2 mt-6 text-sm text-gray-500">
+                    <span class="text-green-600 text-xl">🛡️</span> Informasi Pribadi Anda Aman
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ==================== HALAMAN LOGIN ==================== -->
+    <div id="login-page" class="hidden py-8 px-4">
+        <div class="max-w-lg mx-auto">
+            <button onclick="showDaftar()" class="text-dark-green font-semibold flex items-center gap-2 mb-4 hover:underline">
+                ← Kembali ke Pendaftaran
+            </button>
+
+            <div class="bg-white rounded-2xl shadow-sm p-8 border border-gray-100">
+                <div class="text-center mb-8">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full flex items-center justify-center" style="background: linear-gradient(135deg, #1A4031 0%, #0F2F3D 100%); box-shadow: 0 0 0 3px #D4AF37;">
+                        <span class="text-gold text-3xl">🔑</span>
+                    </div>
+                    <h2 class="text-2xl font-bold text-dark-green">Login Peserta</h2>
+                    <p class="text-sm text-gray-500 mt-2">Masuk untuk mengakses materi pembelajaran</p>
+                </div>
+
+                <form onsubmit="submitLogin(event)" class="space-y-5">
+                    <div>
+                        <label class="block font-semibold mb-2">Alamat Email</label>
+                        <input type="email" id="loginEmail" required placeholder="Masukkan email terdaftar" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-dark-green outline-none">
+                    </div>
+                    <div>
+                        <label class="block font-semibold mb-2">Password</label>
+                        <input type="password" id="loginPassword" required placeholder="Masukkan password" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-dark-green outline-none">
+                    </div>
+
+                    <button type="submit" class="w-full bg-dark-green hover:bg-green-900 text-white font-bold py-4 rounded-lg text-lg transition shadow-md">
+                        MASUK
+                    </button>
+                </form>
+
+                <div class="mt-6 text-center">
+                    <p class="text-sm text-gray-500">Belum punya akun? 
+                        <button onclick="showDaftar()" class="text-dark-green font-semibold hover:underline">Daftar sekarang</button>
+                    </p>
+                </div>
+
+                <div class="mt-6 p-3 bg-cream rounded-lg border border-gray-200">
+                    <p class="text-xs text-gray-500 text-center">💡 <strong>Info:</strong> Masukkan email & password apa saja untuk mencoba (simulasi).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ==================== DASHBOARD PESERTA ==================== -->
+    <div id="dashboard-page" class="hidden py-8 px-4">
+        <div class="max-w-lg mx-auto">
+            
+            <div class="bg-dark-green rounded-2xl p-6 text-white mb-6 shadow-lg">
+                <div class="flex items-center gap-4">
+                    <div class="w-14 h-14 rounded-full flex items-center justify-center" style="background: #D4AF37;">
+                        <span class="text-dark-green font-bold text-xl" id="userInitial">P</span>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-xs text-gold uppercase tracking-widest">Selamat Datang,</p>
+                        <p class="font-bold text-lg" id="userName">Peserta Baru</p>
+                        <p class="text-xs text-gray-300" id="userEmail">peserta@email.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm mb-6">
+                <h3 class="font-bold text-dark-green mb-3">📊 Progres Belajar Anda</h3>
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-sm text-gray-600">Bab diselesaikan</span>
+                    <span class="text-sm font-bold text-dark-green">0 / 6</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
+                    <div class="bg-gradient-to-r from-gold to-yellow-600 h-3 rounded-full" style="width: 0%;"></div>
+                </div>
+                <p class="text-xs text-gray-400 mt-2">Ayo mulai belajar dari Bab 1!</p>
+            </div>
+
+            <div class="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm mb-6">
+                <h3 class="font-bold text-dark-green mb-4">📚 Daftar Materi Pembelajaran</h3>
+                <div class="space-y-3">
+                    <div class="flex items-center gap-3 p-3 bg-cream rounded-lg border border-gray-200 hover:border-gold transition cursor-pointer">
+                        <div class="bg-dark-green text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">01</div>
+                        <div class="flex-1">
+                            <p class="font-semibold text-dark-green text-sm">Sifat Wajib bagi Allah (20)</p>
+                            <p class="text-xs text-gray-500">Bab 1 - Pondasi utama</p>
+                        </div>
+                        <span class="text-gold">▶</span>
+                    </div>
+                    <div class="flex items-center gap-3 p-3 bg-cream rounded-lg border border-gray-200 hover:border-gold transition cursor-pointer">
+                        <div class="bg-red-800 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">02</div>
+                        <div class="flex-1">
+                            <p class="font-semibold text-dark-green text-sm">Sifat Mustahil bagi Allah (20)</p>
+                            <p class="text-xs text-gray-500">Bab 2 - Lanjutan</p>
+                        </div>
+                        <span class="text-gold">▶</span>
+                    </div>
+                    <div class="flex items-center gap-3 p-3 bg-cream rounded-lg border border-gray-200 hover:border-gold transition cursor-pointer">
+                        <div class="bg-gold text-dark-green w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">03</div>
+                        <div class="flex-1">
+                            <p class="font-semibold text-dark-green text-sm">Sifat Jaiz bagi Allah (1)</p>
+                            <p class="text-xs text-gray-500">Bab 3 - Pelengkap</p>
+                        </div>
+                        <span class="text-gold">▶</span>
+                    </div>
+                    <div class="flex items-center gap-3 p-3 bg-cream rounded-lg border border-gray-200 hover:border-gold transition cursor-pointer">
+                        <div class="bg-dark-green text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">04</div>
+                        <div class="flex-1">
+                            <p class="font-semibold text-dark-green text-sm">Sifat Wajib bagi Rasul (4)</p>
+                            <p class="text-xs text-gray-500">Bab 4 - Akidah Rasul</p>
+                        </div>
+                        <span class="text-gold">▶</span>
+                    </div>
+                    <div class="flex items-center gap-3 p-3 bg-cream rounded-lg border border-gray-200 hover:border-gold transition cursor-pointer">
+                        <div class="bg-red-800 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">05</div>
+                        <div class="flex-1">
+                            <p class="font-semibold text-dark-green text-sm">Sifat Mustahil bagi Rasul (4)</p>
+                            <p class="text-xs text-gray-500">Bab 5 - Lanjutan</p>
+                        </div>
+                        <span class="text-gold">▶</span>
+                    </div>
+                    <div class="flex items-center gap-3 p-3 bg-cream rounded-lg border border-gray-200 hover:border-gold transition cursor-pointer">
+                        <div class="bg-gold text-dark-green w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">06</div>
+                        <div class="flex-1">
+                            <p class="font-semibold text-dark-green text-sm">Sifat Jaiz bagi Rasul (1)</p>
+                            <p class="text-xs text-gray-500">Bab 6 - Pelengkap</p>
+                        </div>
+                        <span class="text-gold">▶</span>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://lynk.id/tgkmuhammad" target="_blank" rel="noopener" class="block w-full bg-gold hover:bg-yellow-600 text-dark-green font-bold py-4 rounded-2xl text-center transition shadow-md border-2 border-dark-green mb-6">
+                <span class="text-2xl block mb-1">📚</span>
+                Dapatkan E-Book Sekarang
+                <span class="block text-xs font-normal mt-1 opacity-80">💰 Investasi terbaik untuk akhirat Anda</span>
+            </a>
+
+            <button onclick="logout()" class="w-full bg-red-50 hover:bg-red-100 text-red-700 font-bold py-3 rounded-lg transition border border-red-200">
+                🚪 Keluar dari Akun
+            </button>
+
+            <p class="text-xs text-gray-400 text-center mt-6">© 2025 Pesantren Dayah Darul Muta'allimin</p>
+        </div>
+    </div>
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+    <script>
+        const LINK_GRUP_WA = 'https://chat.whatsapp.com/K92YpV3Kfnt1fuYjJc4sBY';
+
+        function hideAllPages() {
+            document.getElementById('landing-page').classList.add('hidden');
+            document.getElementById('daftar-page').classList.add('hidden');
+            document.getElementById('login-page').classList.add('hidden');
+            document.getElementById('dashboard-page').classList.add('hidden');
+        }
+        function showLanding() {
+            hideAllPages();
+            document.getElementById('landing-page').classList.remove('hidden');
+            document.getElementById('waFloat').style.display = 'flex';
+            window.scrollTo(0, 0);
+            applyReveal();
+        }
+        function showDaftar() {
+            hideAllPages();
+            document.getElementById('daftar-page').classList.remove('hidden');
+            document.getElementById('waFloat').style.display = 'none';
+            window.scrollTo(0, 0);
+        }
+        function showLogin() {
+            hideAllPages();
+            document.getElementById('login-page').classList.remove('hidden');
+            document.getElementById('waFloat').style.display = 'none';
+            window.scrollTo(0, 0);
+        }
+        function showDashboard(nama, email) {
+            hideAllPages();
+            document.getElementById('userName').textContent = nama;
+            document.getElementById('userEmail').textContent = email;
+            document.getElementById('userInitial').textContent = nama.charAt(0).toUpperCase();
+            document.getElementById('dashboard-page').classList.remove('hidden');
+            document.getElementById('waFloat').style.display = 'none';
+            window.scrollTo(0, 0);
+        }
+
+        function setNominal(amount, element) {
+            document.getElementById('nominalInput').value = amount;
+            document.querySelectorAll('.btn-nominal').forEach(btn => {
+                btn.classList.remove('active');
+                btn.classList.add('border-gray-300', 'text-gray-700');
+            });
+            element.classList.add('active');
+            element.classList.remove('border-gray-300', 'text-gray-700');
+        }
+
+        function copyRekening() {
+            navigator.clipboard.writeText('01295582503').then(() => {
+                alert('Nomor rekening BRI berhasil disalin!');
+            }).catch(() => {
+                alert('Nomor Rekening: 0129 5582 503');
+            });
+        }
+
+        function submitDaftar(event) {
+            event.preventDefault();
+            const nama = document.getElementById('inputNama').value.trim();
+            const email = document.getElementById('inputEmail').value.trim();
+
+            localStorage.setItem('pesertaNama', nama);
+            localStorage.setItem('pesertaEmail', email);
+
+            alert('✅ Pendaftaran berhasil!\n\nNama: ' + nama + '\nEmail: ' + email + '\n\nSilakan login untuk mengakses dashboard pembelajaran.');
+            showLogin();
+        }
+
+        function submitLogin(event) {
+            event.preventDefault();
+            const email = document.getElementById('loginEmail').value;
+            const password = document.getElementById('loginPassword').value;
+
+            if (!email || !password) {
+                alert('Mohon isi email dan password!');
+                return;
+            }
+
+            let nama = localStorage.getItem('pesertaNama');
+            let emailTersimpan = localStorage.getItem('pesertaEmail');
+
+            if (!nama) {
+                nama = email.split('@')[0];
+                nama = nama.charAt(0).toUpperCase() + nama.slice(1);
+            }
+            if (!emailTersimpan) {
+                emailTersimpan = email;
+            }
+
+            alert('🔓 Login berhasil! Selamat datang, ' + nama);
+            showDashboard(nama, emailTersimpan);
+        }
+
+        function logout() {
+            if (confirm('Yakin ingin keluar dari akun?')) {
+                showLanding();
+            }
+        }
+
+        function applyReveal() {
+            const reveals = document.querySelectorAll('#landing-page .reveal');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            });
+            reveals.forEach(el => {
+                el.classList.remove('active');
+                observer.observe(el);
+            });
+        }
+
+        window.addEventListener('load', applyReveal);
+    </script>
+</body>
+</html>
